@@ -1,0 +1,25 @@
+# IDE
+.idea/
+.vscode/
+.vim/
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+node_modules/
+
+# Linting
+.eslintcache
+
+# Mac
+.DS_Store
+
+# Python
+__pycache__/
+
+# GitHub
+!.github/

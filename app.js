@@ -11,6 +11,15 @@ app.get("/", (req, res) => {
   res.send("Hello camera api");
 });
 
+app.get("/registration/verify", (req, res) => {
+  res.json({
+    status: {
+      details: "Camera is not registered",
+      succeeded: false,
+    },
+  });
+});
+
 app.get("/secure-local/setup-registration", (req, res) => {
   res.json({
     status: {
